@@ -47,6 +47,10 @@ i[nfo] r[egisters]
 
 registerAn alternative way to print the value of a register (or, if none is specified, of allregisters) in hex and decimal. Specify the register without a leading %, e.g., rdi.
 
+display $register
+
+Display the content of a register.
+
 x/[count][format] [address]
 
 Examine the contents of a specified memory address, or the current address ifnone specified.  If count is specified, displays specified number of words.  Ad-dresses can be symbolic (e.g.,main) or numeric (e.g.,0x10a44). Formats areas for print. Particularly useful for printing the program text, e.g., x/100i foo disassembles and prints 100 instructions starting at foo.
