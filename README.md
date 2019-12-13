@@ -30,7 +30,7 @@ d[elete] b[reakpoints]
 
 number Delete specified breakpoint number.
 
-p[rint] [/format] expr
+p[rint][/format] expr
 
 Print the value of an expression using the specified format (decimal if unspecified). Expressions can involve program variables or registers, which are specified using a $ rather than a % sign. Useful formats include:
 
@@ -47,7 +47,7 @@ i[nfo] r[egisters]
 
 registerAn alternative way to print the value of a register (or, if none is specified, of allregisters) in hex and decimal. Specify the register without a leading %, e.g., rdi.
 
-x/[count] [format] [address]
+x/[count][format] [address]
 
 Examine the contents of a specified memory address, or the current address ifnone specified.  If count is specified, displays specified number of words.  Ad-dresses can be symbolic (e.g.,main) or numeric (e.g.,0x10a44). Formats areas for print. Particularly useful for printing the program text, e.g., x/100i foo disassembles and prints 100 instructions starting at foo.
 
