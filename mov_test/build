@@ -1,0 +1,2 @@
+as -g -o mov_test.o mov_test.s
+ld -o a.out mov_test.o
