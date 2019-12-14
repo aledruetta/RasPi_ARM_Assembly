@@ -1,0 +1,3 @@
+as -g -o add_test.o add_test.s
+ld -o a.out add_test.o
+objdump -d add_test.o

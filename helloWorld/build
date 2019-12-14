@@ -1,2 +1,3 @@
 as -g -o helloWorld.o helloWorld.s
 ld -o a.out helloWorld.o
+objdump -d helloWorld.o
