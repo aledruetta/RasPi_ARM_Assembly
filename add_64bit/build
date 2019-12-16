@@ -1,3 +1,0 @@
-as -g -o add_64bit.o add_64bit.s
-ld -o a.out add_64bit.o
-objdump -d add_64bit.o
