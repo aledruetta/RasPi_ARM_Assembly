@@ -59,6 +59,8 @@ Examine the contents of a specified memory address, or the current address ifnon
 
 Another way to print the assembly program text surrounding an address, or between two addresses.
 
+    disas/r _start
+
 set var=expr
 
 Set specified register or memory location to value of expression. Examples:
