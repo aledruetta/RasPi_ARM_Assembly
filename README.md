@@ -47,7 +47,7 @@ For example, to display the value of register %rdi in decimal, type p/x $rdi. No
 
 registerAn alternative way to print the value of a register (or, if none is specified, of allregisters) in hex and decimal. Specify the register without a leading %, e.g., rdi.
 
-**display [expression]**
+**display[/format] [expression]**
 
 Display automatically the expression each time the program is halted.
 
