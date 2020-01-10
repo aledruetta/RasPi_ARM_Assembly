@@ -14,6 +14,8 @@ loop:
 	and	r4, r3, #1	@ r4 <- mask LSB
 	cmp	r4, #0
 	bne	odd		@ if r4 != 0: else_odd
+
+even:
 	lsr	r3, #1		@ r3 <- r3 / 2
 	b	end_loop
 
