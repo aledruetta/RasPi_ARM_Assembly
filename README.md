@@ -3,6 +3,31 @@
 ## Raspberry Pi, ARM Assembly experimentations
 
 ---
+### GCC options
+
+- Preprocessing
+
+```
+$ gcc -E file.c
+```
+
+- Compilation
+
+```
+$ gcc -S -O0 file.c
+```
+
+- Assembly
+
+```
+$ as -g -c file.s -o file.o
+```
+
+- Linking
+
+```
+$ ld file.o
+```
 
 ### GDB debugging commands
 
